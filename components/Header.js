@@ -1,16 +1,29 @@
+import Image from "next/image";
+
 export default function Header() {
   return (
     <header className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white p-6 shadow-lg relative overflow-hidden">
       <div className="absolute inset-0 bg-black opacity-10"></div>
       <div className="container mx-auto relative z-10">
         <div className="flex items-center justify-center">
-          <div className="text-center">
-            <h1 className="text-4xl font-extrabold mb-2 tracking-tight drop-shadow-lg">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-white">
-                BitTrend
-              </span>
-            </h1>
-            <p className="text-sm text-purple-100 font-medium">Top 5% Alpha Cryptocurrencies</p>
+          <div className="flex items-center gap-4 text-center">
+            <div className="relative w-16 h-16 flex-shrink-0">
+              <Image
+                src="/assets/logo.jpg"
+                alt="BitTrend Logo"
+                fill
+                className="object-contain rounded-full"
+                priority
+              />
+            </div>
+            <div>
+              <h1 className="text-4xl font-extrabold mb-2 tracking-tight drop-shadow-lg">
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-white">
+                  BitTrend
+                </span>
+              </h1>
+              <p className="text-sm text-purple-100 font-medium">Top 5% Alpha Cryptocurrencies</p>
+            </div>
           </div>
         </div>
       </div>
