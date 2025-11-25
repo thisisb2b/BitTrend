@@ -1,0 +1,24 @@
+[00:00:01.705] Server  LOG      ✓ Ready in 1018ms
+[00:06:18.488] Server  LOG      ✓ Compiled in 222ms
+[00:06:56.392] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[00:07:06.529] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[00:09:24.988] Server  LOG      ✓ Compiled in 256ms
+[00:10:29.714] Server  LOG      ✓ Compiled in 130ms
+[00:10:41.754] Server  LOG      ✓ Compiled in 317ms
+[00:12:32.428] Server  LOG      ✓ Compiled in 270ms
+[00:15:46.893] Server  LOG      ✓ Compiled in 203ms
+[00:19:39.135] Server  LOG      ✓ Compiled in 136ms
+[00:21:09.579] Server  LOG      ✓ Compiled in 177ms
+[00:21:24.278] Server  LOG      ✓ Compiled in 175ms
+[00:21:31.941] Server  LOG      ✓ Compiled in 94ms
+[00:21:49.155] Server  LOG      ✓ Compiled in 261ms
